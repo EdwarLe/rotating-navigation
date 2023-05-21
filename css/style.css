@@ -21,7 +21,7 @@ body {
 
 .main__contain-rotate {
     rotate: -20deg;
-    transition: 1s;
+    transition: 1s ease-in-out;
 }
 
 .menu {
@@ -30,10 +30,10 @@ body {
 }
 
 .main__menu-show {
-    position: absolute  ;
+    position: absolute;
     left: 40px;
-    bottom: 50em;
-    transition: 1s;
+    bottom: 4em;
+    transition: 0.5s;
     transition-delay: 1s;
 }
 
